@@ -4,6 +4,7 @@
   "description": "Geo Tagged AI Based Complain Booking - Backend",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "npm run test"
   },
   "author": "BVM",
