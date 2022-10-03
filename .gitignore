@@ -1,5 +1,4 @@
 node_modules/
 MongoDetails.txt
 .env
-package-lock.json
 Procfile
