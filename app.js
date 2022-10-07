@@ -7,6 +7,8 @@ const routes = require("./routes");
 const multer = require("multer");
 const { errorHandler } = require("./helpers/errors");
 
+require("dotenv").config();
+
 require("./database/dbConnection");
 
 app.use(cors());
