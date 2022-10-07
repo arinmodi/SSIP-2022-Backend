@@ -3,7 +3,7 @@ const argon2 = require('argon2');
 const { generateJWT } = require("../../middlewares/auth");
 
 module.exports = async (req, res, next) => {
-    const details = await auth.findOne({ LoginID : req.body.LoginID });
+    const details = await auth.findOne({ LoginId : req.body.LoginId });
 
     if(details) {
         if(await argon2.verify(details.password, req.body.password)) {
