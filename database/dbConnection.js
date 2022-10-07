@@ -3,7 +3,7 @@ const chalk = require("chalk");
 
 const connect = () => {
 
-	mongoose.connect(process.env.MONGO_URL, {
+	mongoose.connect(process.env.MONGO_Url, {
 		dbName : process.env.DB_NAME
 	})
 
